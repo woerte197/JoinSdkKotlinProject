@@ -162,6 +162,7 @@ class LocationPresenter : BasePresenter<LocationView>(), BaiduMap.OnMapClickList
 
     fun onDestroy() {
        mView.clear()
+
     }
 
 }
